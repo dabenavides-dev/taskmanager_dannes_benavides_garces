@@ -1,0 +1,76 @@
+/* TaskManager DWBG - Dannes Benavides Garces - Estilos Azules */
+body { 
+  font-family: Segoe UI, sans-serif; 
+  background: #eaf2ff; 
+  margin: 0; 
+  padding: 20px; 
+  color: #1a2a4a;
+}
+header { 
+  background: #1a3a6a; 
+  color: white; 
+  padding: 18px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+#dashboard { 
+  background: #2a4a8a; 
+  padding: 10px 14px; 
+  margin-top: 12px; 
+  border-radius: 6px; 
+  font-size: 14px; 
+  letter-spacing: 0.5px;
+}
+#form-tarea { 
+  display: flex; 
+  gap: 10px; 
+  margin: 22px 0; 
+}
+#form-tarea input, #form-tarea select { 
+  padding: 10px; 
+  border-radius: 6px; 
+  border: 1px solid #a8c0e0; 
+  flex: 1;
+}
+#form-tarea button { 
+  background: #1e6bff; 
+  color: white; 
+  cursor: pointer; 
+  border: none; 
+  padding: 10px 16px; 
+  border-radius: 6px; 
+  font-weight: bold;
+}
+#form-tarea button:hover { background: #1550c0; }
+.controles { 
+  display: flex; 
+  gap: 10px; 
+  margin-bottom: 16px; 
+}
+.controles input, .controles select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #a8c0e0;
+}
+#lista-tareas { list-style: none; padding: 0; }
+#lista-tareas li { 
+  background: white; 
+  margin: 10px 0; 
+  padding: 12px; 
+  border-radius: 8px; 
+  display: flex; 
+  gap: 10px; 
+  align-items: center; 
+  border-left: 5px solid #1e6bff;
+  box-shadow: 0 2px 6px rgba(30,107,255,0.1); 
+}
+#lista-tareas li.done { border-left-color: #7aa3ff; opacity: 0.7; }
+#lista-tareas li.done span { text-decoration: line-through; color: #6c86ad; }
+#lista-tareas li button {
+  background: #eaf2ff;
+  border: 1px solid #a8c0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+#lista-tareas li button:hover { background: #d0e2ff; }
