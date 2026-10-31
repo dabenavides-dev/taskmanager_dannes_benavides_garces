@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskManager - Act. Integradora 2 DWBG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>TaskManager - DWBG</h1>
+    <div id="dashboard">Cargando...</div>
+  </header>
+  <main>
+    <form id="form-tarea">
+      <input type="text" id="titulo" placeholder="Nueva tarea" required>
+      <select id="prioridad">
+        <option value="Alta">Alta</option>
+        <option value="Media" selected>Media</option>
+        <option value="Baja">Baja</option>
+      </select>
+      <button type="submit">Agregar</button>
+    </form>
+    <div class="controles">
+      <input type="text" id="busqueda" placeholder="Buscar por título...">
+      <select id="filtro-estado">
+        <option value="Todas">Todas</option>
+        <option value="Pendientes">Pendientes</option>
+        <option value="Completadas">Completadas</option>
+      </select>
+      <select id="orden">
+        <option value="fecha">Orden: Fecha</option>
+        <option value="prioridad">Orden: Prioridad</option>
+      </select>
+    </div>
+    <ul id="lista-tareas"></ul>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
