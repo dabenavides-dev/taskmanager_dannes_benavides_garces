@@ -22,3 +22,4 @@ Proyecto TaskManager con CRUD, filtros, busqueda y localStorage. Style ok.
 
 ### Ejecutar
 Abrir index.html
+**Link del proyecto funcionando:** https://dabenavides-dev.github.io/taskmanager_dannes_benavides_garces/
